@@ -1,0 +1,25 @@
+[0.589s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/src/example_py': PYTHONPATH=/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/prefix_override:/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_py build --build-base /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/build install --record /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed
+[0.775s] running egg_info
+[0.776s] writing ../../build/example_py/example_py.egg-info/PKG-INFO
+[0.776s] writing dependency_links to ../../build/example_py/example_py.egg-info/dependency_links.txt
+[0.776s] writing entry points to ../../build/example_py/example_py.egg-info/entry_points.txt
+[0.776s] writing requirements to ../../build/example_py/example_py.egg-info/requires.txt
+[0.776s] writing top-level names to ../../build/example_py/example_py.egg-info/top_level.txt
+[0.805s] reading manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.805s] writing manifest file '../../build/example_py/example_py.egg-info/SOURCES.txt'
+[0.805s] running build
+[0.806s] running build_py
+[0.806s] copying example_py/node_04.py -> /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/build/lib/example_py
+[0.806s] running install
+[0.806s] running install_lib
+[0.807s] copying /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/build/lib/example_py/node_04.py -> /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/python3.8/site-packages/example_py
+[0.808s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/python3.8/site-packages/example_py/node_04.py to node_04.cpython-38.pyc
+[0.809s] running install_data
+[0.809s] running install_egg_info
+[0.810s] removing '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/python3.8/site-packages/example_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.811s] Copying ../../build/example_py/example_py.egg-info to /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/python3.8/site-packages/example_py-0.0.0-py3.8.egg-info
+[0.812s] running install_scripts
+[0.826s] Installing node_02 script to /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/example_py
+[0.826s] Installing node_04 script to /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/example_py
+[0.826s] writing list of installed files to '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/install.log'
+[0.843s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/src/example_py' returned '0': PYTHONPATH=/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/prefix_override:/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/example_py build --build-base /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/build install --record /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_py/install.log --install-scripts $base/lib/example_py --single-version-externally-managed

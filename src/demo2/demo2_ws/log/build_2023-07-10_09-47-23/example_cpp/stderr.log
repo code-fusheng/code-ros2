@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:39 (install):
+  install TARGETS given target "DEFINITIONS" which does not exist.
+
+

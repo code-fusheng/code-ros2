@@ -1,0 +1,77 @@
+[0.059s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client
+[0.144s] -- The C compiler identification is GNU 9.4.0
+[0.218s] -- The CXX compiler identification is GNU 9.4.0
+[0.234s] -- Check for working C compiler: /usr/bin/cc
+[0.336s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.337s] -- Detecting C compiler ABI info
+[0.451s] -- Detecting C compiler ABI info - done
+[0.470s] -- Detecting C compile features
+[0.473s] -- Detecting C compile features - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.644s] -- Detecting CXX compiler ABI info
+[0.770s] -- Detecting CXX compiler ABI info - done
+[0.811s] -- Detecting CXX compile features
+[0.814s] -- Detecting CXX compile features - done
+[0.819s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.852s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.852s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.195s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.262s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.374s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.419s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.825s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.904s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.908s] -- Looking for pthread.h
+[2.100s] -- Looking for pthread.h - found
+[2.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.282s] -- Looking for pthread_create in pthreads
+[2.431s] -- Looking for pthread_create in pthreads - not found
+[2.431s] -- Looking for pthread_create in pthread
+[2.666s] -- Looking for pthread_create in pthread - found
+[2.667s] -- Found Threads: TRUE  
+[2.977s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.122s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.123s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.123s] -- Configured cppcheck include dirs: 
+[3.123s] -- Configured cppcheck exclude dirs and/or files: 
+[3.123s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.123s] -- Configured cpplint exclude dirs and/or files: 
+[3.128s] -- Added test 'lint_cmake' to check CMake code style
+[3.129s] -- Added test 'uncrustify' to check C / C++ code style
+[3.129s] -- Configured uncrustify additional arguments: 
+[3.130s] -- Added test 'xmllint' to check XML markup files
+[3.142s] -- Configuring done
+[3.156s] -- Generating done
+[3.159s] -- Build files have been written to: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client
+[3.178s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client
+[3.179s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+[11.927s] [35m[1mScanning dependencies of target client_main[0m
+[11.927s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[12.365s] [100%] [32m[1mLinking CXX executable client_main[0m
+[12.774s] [100%] Built target client_main
+[12.865s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client -- -j8 -l8
+[13.025s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client
+[13.062s] -- Install configuration: ""
+[13.063s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[13.064s] -- Set runtime path of "/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main" to ""
+[13.069s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[13.076s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[13.079s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[13.081s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[13.084s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[13.086s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[13.086s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[13.086s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[13.087s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[13.087s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[13.087s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[13.087s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[13.087s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[13.088s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[13.088s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[13.098s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclcpp_minimal_client

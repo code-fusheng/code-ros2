@@ -1,0 +1,57 @@
+[1.898s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/src/examples/rclpy/executors': PYTHONPATH=/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build install --record /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed
+[2.349s] running egg_info
+[2.349s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[2.349s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.349s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.349s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.349s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.350s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.353s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.403s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.404s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.404s] running build
+[2.404s] running build_py
+[2.404s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build
+[2.405s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib
+[2.405s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.405s] copying examples_rclpy_executors/__init__.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.405s] copying examples_rclpy_executors/composed.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.405s] copying examples_rclpy_executors/talker.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.405s] copying examples_rclpy_executors/listener.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.405s] copying examples_rclpy_executors/callback_group.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.405s] copying examples_rclpy_executors/custom_executor.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.406s] copying examples_rclpy_executors/custom_callback_group.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.406s] running install
+[2.407s] running install_lib
+[2.410s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.410s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.410s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.413s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.414s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.414s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.414s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.414s] copying /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.414s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[2.416s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[2.416s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[2.416s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[2.416s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[2.416s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[2.416s] byte-compiling /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[2.417s] running install_data
+[2.418s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index
+[2.418s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[2.418s] creating /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.419s] copying resource/examples_rclpy_executors -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.420s] copying package.xml -> /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[2.420s] running install_egg_info
+[2.423s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[2.424s] running install_scripts
+[2.451s] Installing callback_group script to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.451s] Installing composed script to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.452s] Installing custom_callback_group script to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.453s] Installing custom_executor script to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.454s] Installing listener script to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.455s] Installing talker script to /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.456s] writing list of installed files to '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/install.log'
+[2.890s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/prefix_override:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/build install --record /home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed

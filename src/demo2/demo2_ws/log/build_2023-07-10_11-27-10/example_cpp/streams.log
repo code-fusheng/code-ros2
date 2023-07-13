@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_service:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp -- -j8 -l8
+[0.042s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.227s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.571s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.627s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.628s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.628s] -- Configured cppcheck include dirs: 
+[0.628s] -- Configured cppcheck exclude dirs and/or files: 
+[0.628s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.628s] -- Configured cpplint exclude dirs and/or files: 
+[0.629s] -- Added test 'lint_cmake' to check CMake code style
+[0.630s] -- Added test 'uncrustify' to check C / C++ code style
+[0.630s] -- Configured uncrustify additional arguments: 
+[0.630s] -- Added test 'xmllint' to check XML markup files
+[0.635s] -- Configuring done
+[0.643s] -- Generating done
+[0.645s] -- Build files have been written to: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp
+[0.667s] [35m[1mScanning dependencies of target node_03[0m
+[0.685s] [ 50%] Built target node_01
+[0.699s] [ 75%] [32mBuilding CXX object CMakeFiles/node_03.dir/src/node_03.cpp.o[0m
+[2.138s] [100%] [32m[1mLinking CXX executable node_03[0m
+[2.236s] [100%] Built target node_03
+[2.248s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_service:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp -- -j8 -l8
+[2.282s] Invoking command in '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_service:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp
+[2.290s] -- Install configuration: ""
+[2.290s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[2.290s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[2.291s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[2.291s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[2.291s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/environment/path.sh
+[2.291s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+[2.291s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/local_setup.bash
+[2.291s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/local_setup.sh
+[2.291s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+[2.291s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+[2.291s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/package.dsv
+[2.292s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[2.292s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[2.292s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[2.292s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/share/example_cpp/package.xml
+[2.292s] -- Up-to-date: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/lib/example_cpp/node_01
+[2.292s] -- Installing: /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/lib/example_cpp/node_03
+[2.292s] -- Set runtime path of "/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_cpp/lib/example_cpp/node_03" to ""
+[2.294s] Invoked command in '/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/install/example_py:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_subscriber:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_service:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_publisher:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_server:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_minimal_action_client:/home/htc/robot-ws/learn-ws/src/demo2/colcon_test_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/htc/robot-ws/learn-ws/src/demo2/demo2_ws/build/example_cpp
