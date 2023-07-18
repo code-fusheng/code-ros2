@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- visual 标签可以声明机器人形状 -->
+<robot name="fishbot">
+
+    <!-- base link -->
+    <link name="base_link">
+        <visual>
+        <origin xyz="0 0 0.0" rpy="0 0 0"></origin>
+        <geometry>
+            <cylinder length="0.12" radius="0.10"></cylinder>
+        </geometry>
+        </visual>
+    </link>
+
+    <!-- laser link -->
+    <link name="laser_link">
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"></origin>
+        <geometry>
+            <cylinder length="0.02" radius="0.02"></cylinder>
+        </geometry>
+        <material name="black">
+            <color rgba="0.0 0.0 0.0 0.5"></color>
+        </material>
+        </visual>
+    </link>
+
+    <!-- laser joint -->
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="laser_link" />
+        <origin xyz="0 0 0.075" />
+    </joint>
+
+</robot>

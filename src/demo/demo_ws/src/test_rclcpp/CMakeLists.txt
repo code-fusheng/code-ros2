@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(example_service_rclcpp)
+project(test_rclcpp)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -18,7 +18,6 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(example_interfaces REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -33,19 +32,10 @@ endif()
 
 ament_package()
 
-# 新增
-add_executable(service_client_01 src/service_client_01.cpp)
-ament_target_dependencies(service_client_01 rclcpp example_interfaces)
-
-add_executable(service_server_01 src/service_server_01.cpp)
-ament_target_dependencies(service_server_01 rclcpp example_interfaces)
+add_executable(test_logger src/test_logger.cpp)
+ament_target_dependencies(test_logger rclcpp)
 
 install(TARGETS
-  service_server_01
+  test_logger
   DESTINATION lib/${PROJECT_NAME}
 )
-install(TARGETS
-  service_client_01
-  DESTINATION lib/${PROJECT_NAME}
-)
-

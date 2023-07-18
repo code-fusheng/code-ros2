@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(example_service_rclcpp)
+project(robot_control_interfaces)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -17,8 +17,10 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(example_interfaces REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+# find_package(<dependency> REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -31,21 +33,9 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/MoveRobot.action"
+)
+
 ament_package()
-
-# 新增
-add_executable(service_client_01 src/service_client_01.cpp)
-ament_target_dependencies(service_client_01 rclcpp example_interfaces)
-
-add_executable(service_server_01 src/service_server_01.cpp)
-ament_target_dependencies(service_server_01 rclcpp example_interfaces)
-
-install(TARGETS
-  service_server_01
-  DESTINATION lib/${PROJECT_NAME}
-)
-install(TARGETS
-  service_client_01
-  DESTINATION lib/${PROJECT_NAME}
-)
 
