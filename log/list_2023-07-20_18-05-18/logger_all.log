@@ -1,0 +1,829 @@
+[0.472s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/htc/robot/code-ros2']
+[0.472s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/htc/robot/code-ros2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe6c96ca200>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fe6c960ffd0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fe6c960ffd0>>)
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.525s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/htc/robot/code-ros2'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'ros'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extensions ['cmake', 'python']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/build) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/build) ignored
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/install) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/install) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/log) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/log) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'ros'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extensions ['cmake', 'python']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'cmake'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'python'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extensions ['python_setup_py']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src) by extension 'python_setup_py'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'cmake'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extensions ['python_setup_py']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds) by extension 'python_setup_py'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'python'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extensions ['python_setup_py']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/dds/fastdds_ws) by extension 'python_setup_py'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'ros'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'cmake'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extensions ['python_setup_py']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo) by extension 'python_setup_py'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'cmake'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'python'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extensions ['python_setup_py']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws) by extension 'python_setup_py'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'ros'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extensions ['cmake', 'python']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'python'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo/demo_ws/src/test_rclcpp' with type 'ros.ament_cmake' and name 'test_rclcpp'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'ros'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extensions ['cmake', 'python']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'cmake'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'python'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extensions ['python_setup_py']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2) by extension 'python_setup_py'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/basic) by extension 'python'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo2/basic' with type 'cmake' and name 'first_node'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'ignore'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'ignore_ament_install'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'ros'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extensions ['cmake', 'python']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'python'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extensions ['python_setup_py']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws) by extension 'python_setup_py'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'ros'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extensions ['cmake', 'python']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'cmake'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extensions ['python_setup_py']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src) by extension 'python_setup_py'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/colcon_test_ws/src/examples) by extension 'python_setup_py'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'ros'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extensions ['python_setup_py']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp) by extension 'ros'
+[0.569s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_cpp' with type 'ros.ament_cmake' and name 'example_cpp'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo2/demo2_ws/src/example_py' with type 'ros.ament_python' and name 'example_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extensions ['colcon_meta']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'colcon_meta'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3) by extension 'python_setup_py'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'python'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extensions ['python_setup_py']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_interfaces_rclpy' with type 'ros.ament_python' and name 'example_interfaces_rclpy'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_ros2_interfaces' with type 'ros.ament_cmake' and name 'example_ros2_interfaces'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp) by extension 'ros'
+[0.580s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclcpp' with type 'ros.ament_cmake' and name 'example_service_rclcpp'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extension 'ignore_ament_install'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_service_rclpy' with type 'ros.ament_python' and name 'example_service_rclpy'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclcpp' with type 'ros.ament_cmake' and name 'example_topic_rclcpp'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo3/demo3_ws/src/example_topic_rclpy' with type 'ros.ament_python' and name 'example_topic_rclpy'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'python'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extensions ['python_setup_py']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4) by extension 'python_setup_py'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'ros'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'python'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extensions ['python_setup_py']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws) by extension 'python_setup_py'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'ros'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extensions ['cmake', 'python']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'cmake'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'python'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extensions ['python_setup_py']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src) by extension 'python_setup_py'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_action_rclpy' with type 'ros.ament_python' and name 'example_action_rclpy'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy) by extension 'ros'
+[0.594s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/example_parameters_rclpy' with type 'ros.ament_python' and name 'example_parameters_rclpy'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extension 'ignore_ament_install'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extensions ['colcon_pkg']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo4/demo4_ws/src/robot_control_interfaces' with type 'ros.ament_cmake' and name 'robot_control_interfaces'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'ros'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extensions ['cmake', 'python']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'cmake'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'python'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extensions ['python_setup_py']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5) by extension 'python_setup_py'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'cmake'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'python'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src) by extension 'python_setup_py'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'ros'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extensions ['cmake', 'python']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'cmake'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'python'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extensions ['python_setup_py']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src) by extension 'python_setup_py'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo5/demo5_ws/src/src/robot_startup' with type 'ros.ament_cmake' and name 'robot_startup'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extensions ['python_setup_py']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'ros'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extensions ['cmake', 'python']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'cmake'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'python'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extensions ['python_setup_py']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws) by extension 'python_setup_py'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'ros'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extensions ['cmake', 'python']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'cmake'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'python'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extensions ['python_setup_py']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src) by extension 'python_setup_py'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/demo8/demo8_ws/src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'ros'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extensions ['cmake', 'python']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'cmake'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'python'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extensions ['python_setup_py']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc) by extension 'python_setup_py'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extensions ['ros']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'ros'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extensions ['cmake', 'python']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'cmake'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'python'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extensions ['python_setup_py']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/img) by extension 'python_setup_py'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/doc/ssh) by extension 'python_setup_py'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot) by extension 'python_setup_py'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'ros'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extensions ['cmake', 'python']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'cmake'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'python'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extensions ['python_setup_py']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws) by extension 'python_setup_py'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/cartographer_ros) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_cartographer' with type 'ros.ament_cmake' and name 'fishbot_cartographer'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2) by extension 'ros'
+[0.621s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/fishbot/fishbot_ws/src/navigation2) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'ros'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extensions ['cmake', 'python']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'cmake'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'python'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extensions ['python_setup_py']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/jupyter) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn) by extension 'python_setup_py'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'ros'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extensions ['cmake', 'python']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'cmake'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'python'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extensions ['python_setup_py']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws) by extension 'python_setup_py'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/learn/learn_ws/src) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'ros'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extensions ['cmake', 'python']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'ignore_ament_install'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extensions ['colcon_pkg']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'colcon_pkg'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extensions ['colcon_meta']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'ros'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extensions ['cmake', 'python']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'cmake'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'python'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extensions ['python_setup_py']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws) by extension 'python_setup_py'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/log) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/log) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'ignore_ament_install'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'python'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extensions ['python_setup_py']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src) by extension 'python_setup_py'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/build) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/build) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/install) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/install) ignored
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/log) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/log) ignored
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'ignore'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'ignore_ament_install'
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extensions ['colcon_pkg']
+[0.632s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'colcon_pkg'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extensions ['colcon_meta']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'colcon_meta'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extensions ['ros']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'ros'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extensions ['cmake', 'python']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'cmake'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'python'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extensions ['python_setup_py']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network) by extension 'python_setup_py'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package '/home/htc/robot/code-ros2/src/robot_learn/robot_learn_ws/src/network/mqtt' with type 'ros.ament_python' and name 'mqtt'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'ros'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extensions ['cmake', 'python']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'cmake'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'python'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extensions ['python_setup_py']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/htc/robot/code-ros2/src/urdf) by extension 'python_setup_py'
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
