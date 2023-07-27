@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "mqtt_test_node = mqtt.mqtt_test:main",
             "subscriber_node = mqtt.subscriber_node:main"
         ],
     },

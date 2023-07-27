@@ -10,3 +10,4 @@ def main(args=None):
     rclpy.init(args=args)
     node = SubscriberNode("mqtt_subscriber_node")
     rclpy.spin(node)
+

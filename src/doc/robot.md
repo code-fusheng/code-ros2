@@ -216,7 +216,6 @@ colcon build --packages-select YOUR_PKG_NAME  --cmake-args -DBUILD_TESTING=0
 colcon test
 # 允许通过更改src下的部分文件来改变install（重要）
 colcon build --symlink-install
-
 ```
 
 colcon官方文档 https://colcon.readthedocs.io/en/released/user/installation.html
